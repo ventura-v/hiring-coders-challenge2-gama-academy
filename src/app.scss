@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+    .header{
+        position: relative;
+
+        h1{
+            text-transform: uppercase;
+            font-size: 30px;
+            letter-spacing: 15px;
+            color: #FFF;
+        }
+
+        .btn-header{
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: #FFF;
+            background-color: #D7197A;
+            border-radius: 10px;
+            border: 1px solid #FFF;
+            height: 30px;
+            font-size: 14px;
+        }
+
+        .btn-header:hover{
+            cursor: pointer;
+            opacity: 0.9;
+        }
+    }
+
+    .menu,
+    .footer{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        background-color: #D7197A;
+        border-bottom: 2px solid #FFF;
+    }
+}
