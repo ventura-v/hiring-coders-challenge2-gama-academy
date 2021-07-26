@@ -114,12 +114,6 @@
     }
   ],
   "carrinho": [
-    {
-      "id": "211e1852-afa3-46c7-b07b-4cdad52f435f",
-      "picture": "https://a-static.mlcdn.com.br/618x463/apple-watch-se-40mm-cinza-espacial-gps-pulseira-esportiva-preta/magazineluiza/227234700/bcc83df895a8d73d08edf0829a7fe41e.jpg",
-      "name": "Apple Watch SE",
-      "description": "Caixa de 44 mm Tela Retina  GPS + Cellular6 GPS  Notificações de frequência cardíaca alta e baixa  Notificação de ritmo cardíaco irregular10 Resistente à água (50 metros)",
-      "price": "2000"
-    }
+    
   ]
 }
