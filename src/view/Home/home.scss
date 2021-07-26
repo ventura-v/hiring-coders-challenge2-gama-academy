@@ -1,0 +1,19 @@
+.products-container{
+    // font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #16233A;
+
+    .products-wrapper{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        flex-wrap: wrap;
+
+        .product-container{
+            background-color: #FFF;
+        }
+    }
+}
