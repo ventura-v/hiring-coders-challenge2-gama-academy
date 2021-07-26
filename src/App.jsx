@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { uuid } from "uuidv4";
+// import { uuid } from "uuidv4";
 
 import api from "./services/api";
 import prod from './static-server.json'
@@ -31,17 +31,28 @@ const App = () => {
   }
 
   const addCart = async (product) => {
-    const request = {
-        id: uuid(),
-        ...product
-    }
+    // const request = {
+    //     id: uuid(),
+    //     ...product
+    // }
 
-    const response = await api.post('/carrinho', request)
-    setCart([...cart, response.data])
+    setCart([...cart, product])
+    // const response = await api.post('/carrinho', request)
+    // setCart([...cart, response.data])
   }
 
-  const removeProduct = async (id) => {
-    await api.delete(`/carrinho/${id}`)
+  // const removeProduct = async (id) => {
+  //   await api.delete(`/carrinho/${id}`)
+  //   const newProductList = cart.filter((product) => {
+  //       return product.id !== id
+  //   })
+
+  //   setCart(newProductList)
+  // }
+
+  const removeProduct = (id) => {
+    let index = prod.carrinho.indexOf(id)
+    console.log(index)
     const newProductList = cart.filter((product) => {
         return product.id !== id
     })
@@ -74,6 +85,14 @@ const App = () => {
     }
     console.log(prod.produtos.length)
   }, [products])
+
+  useEffect(() => {
+    localStorage.setItem('carrinho', JSON.stringify(prod.carrinho))
+    if(prod.carrinho.length !== cart.length){
+      setProducts(JSON.parse(localStorage.getItem('carrinho')))
+    }
+    console.log(prod.carrinho.length)
+  }, [cart])
 
   useEffect(() => {
 
