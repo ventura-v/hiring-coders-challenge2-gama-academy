@@ -9,23 +9,23 @@ import Footer from "./components/Footer";
 
 import Cart from "./view/Cart";
 import ProductDetail from "./view/Detail";
-import EditProduct from "./view/Edit";
 import Home from "./view/Home";
 
 import './app.scss'
 
 const App = () => {
-  const LOCAL_STORAGE_KEY = "produtos";
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
 
   const retrieveProducts = async () => {
     const response = await api.get('/produtos')
+    localStorage.setItem("Produtos", response.data)
     return response.data
   }
 
   const retrieveCart = async () => {
     const response = await api.get('/carrinho')
+    localStorage.setItem("Carrinho", response.data)
     return response.data
   }
 
@@ -38,16 +38,6 @@ const App = () => {
     const response = await api.post('/carrinho', request)
     setCart([...cart, response.data])
   }
-
-  const updateProduct = async (product) => {
-    const response = await api.put(`/produtos/${product.id}`, product);
-    const { id, picture, name, description, price } = response.data;
-    setProducts(
-      products.map((product) => {
-        return product.id === id ? { ...response.data } : product;
-      })
-    );
-  };
 
   const removeProduct = async (id) => {
     await api.delete(`/carrinho/${id}`)
@@ -94,16 +84,6 @@ const App = () => {
                 {...props}
                 products={products}
                 getProductId={addCart}
-              />
-            )}
-          />
-
-          <Route
-            path="/editar"
-            render={(props) => (
-              <EditProduct
-                {...props}
-                updateProduct={updateProduct}
               />
             )}
           />
