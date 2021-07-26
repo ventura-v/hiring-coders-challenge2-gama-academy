@@ -19,13 +19,13 @@ const App = () => {
 
   const retrieveProducts = async () => {
     const response = await api.get('/produtos')
-    localStorage.setItem("Produtos", response.data)
+    localStorage.setItem("Produtos", JSON.stringify(response.data))
     return response.data
   }
 
   const retrieveCart = async () => {
     const response = await api.get('/carrinho')
-    localStorage.setItem("Carrinho", response.data)
+    localStorage.setItem("Carrinho", JSON.stringify(response.data))
     return response.data
   }
 
