@@ -1,0 +1,117 @@
+{
+  "produtos": [
+    {
+      "id": "211e1852-afa3-46c7-b07b-4cdad52f435f",
+      "picture": "https://a-static.mlcdn.com.br/618x463/apple-watch-se-40mm-cinza-espacial-gps-pulseira-esportiva-preta/magazineluiza/227234700/bcc83df895a8d73d08edf0829a7fe41e.jpg",
+      "name": "Apple Watch SE",
+      "description": "Caixa de 44 mm Tela Retina  GPS + Cellular6 GPS  Notificações de frequência cardíaca alta e baixa  Notificação de ritmo cardíaco irregular10 Resistente à água (50 metros)",
+      "price": "2000"
+    },
+    {
+      "id": "70acb03c-e049-4dd7-be50-cfb6276eadc9",
+      "picture": "https://m.media-amazon.com/images/I/61dxHxwUXlL._AC_SX425_.jpg",
+      "name": "Smartwatch Amazfit Pace",
+      "description": "Tela sensível ao toque de 1.34\". Suporta até 1m debaixo d'água. Com GPS integrado. Bateria de 5 dias de duração. Com conectividade via Bluetooth e Wi-Fi. Capacidade da memória interna de 4GB. Sensores incluídos: acelerômetro, barómetro, giroscópio, sensor de freqüência cardíaca ppg, sensor de luz ambiente, sensor geomagnético, sensor glonass. Pulseira intercambiável para outras cores, não inclusa no produto.",
+      "price": "1000"
+    },
+    {
+      "id": "f5f08905-279b-4dbe-aa48-96222b3c9f7a",
+      "name": "Galaxy Watch Active2",
+      "picture": "https://a-static.mlcdn.com.br/618x463/smartwatch-samsung-galaxy-watch-active2-preto-44mm-15gb/magazineluiza/226484600/e8ebc1e54489e50ca33b2bbde78ea57e.jpg",
+      "description": "Permite o recebimento de mensagens e notificações É um smartwatch ideal para quem tem um estilo de vida saudável Ele vem equiPado com GPS que rastreia com maior precisão suas trilhas Acesso a redes sociais e assistente de tradução de idiomas e calculadora",
+      "price": "1100"
+    },
+    {
+      "id": "739b8404-2374-4ffb-bb64-fa5324e5a9c9",
+      "name": "Echo Dot (3ª Geração)",
+      "picture": "https://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1403647406",
+      "description": "O Echo Dot é o nosso smart speaker de maior sucesso. Controlado por voz com a Alexa, ele é perfeito para qualquer ambiente. Você pode pedir músicas, notícias, informações e muito mais. Além de ligar para amigos e familiares e controlar dispositivos compatíveis de casa inteligente com sua voz.",
+      "price": "300"
+    },
+    {
+      "id": "b1e6ddf8-9fa5-4f1e-86c5-9e6b6d2a69c1",
+      "name": "Novo Echo Dot (4ª Geração)",
+      "picture": "https://www.infostore.com.br/media/catalog/product/cache/6f4a9cade1b519a8ba034325b5d7a7de/d/i/dispositivo-smart-home-echo-dot-4g-alexa-preto-amazon-1.jpg",
+      "description": "Conheça o novo Echo Dot: nosso smart speaker com Alexa de maior sucesso ainda melhor. O novo design de áudio com direcionamento frontal (1 speaker de 1,6\") garante mais graves e um som completo.",
+      "price": "400"
+    },
+    {
+      "id": "3e25d5ff-36cc-436e-856f-52678e9c2f65",
+      "name": "Console Sony PlayStation 5",
+      "picture": "https://cdn.awsli.com.br/600x450/53/53761/produto/61035082/07b6e90b09.jpg",
+      "description": "Desfrute do carregamento extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation 5 Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation 5 pode fazer. Maximize suas sessões de jogo com tempos de carregamento praticamente instantâneos para jogos instalados.",
+      "price": "4500"
+    },
+    {
+      "id": "6b4e228e-34a9-4878-9c56-61d2816c5f2f",
+      "name": "Console Microsoft Xbox Series X",
+      "picture": "https://compass-ssl.xbox.com/assets/f0/85/f085c120-d3d5-4424-8b70-eb25deaa326e.png?n=XBX_A-BuyBoxBGImage01-D.png",
+      "description": "Apresentamos o Xbox Series X, o console mais rápido e poderoso de todos os tempos. Jogue milhares de títulos de quatro gerações de consoles- todos os jogos têm melhor aparência e são melhor executados no Xbox Series X. No coração do Series X está a Xbox Velocity Architecture, que combina um SSD personalizado e software integrado para diminuir significativamente os tempos de carregamento dentro e fora do jogo. ",
+      "price": "4000"
+    },
+    {
+      "id": "ae16ca7b-d5db-4ca9-a599-0cd3cca395b1",
+      "picture": "https://compass-ssl.xbox.com/assets/b7/41/b7414f03-9878-4ed3-a9a4-b4ab8f19ca97.jpg?n=0202999-Hero-M.jpg",
+      "name": "Console Microsoft Xbox Series S",
+      "description": "Xbox Series S, o menor e mais elegante de todos os tempos. Com taxas de quadros mais altas, tempos de carregamento mais rápidos e mundos mais ricos e dinâmicos, o Xbox Series S oferece desempenho e velocidade de última geração em um formato compacto e totalmente digital. Retrocompatibilidade com milhares de jogos. Prepare-se para tempos de carregamento mais rápidos, resolução mais alta, taxas de quadros mais estáveis e melhor latência de entrada em milhares de jogos Xbox One, Xbox 360 e Xbox Original.",
+      "price": "2000"
+    },
+    {
+      "id": "2e5859ed-0c3a-49a9-aeae-d5f6deeb6463",
+      "picture": "https://t2.tudocdn.net/573045?w=141&h=304",
+      "name": "Asus Zenfone 8",
+      "description": "O Asus Zenfone 8 é um smartphone Android avançado e abrangente em todos os pontos de vista com algumas características excelentes. Tem uma grande tela de 5.9 polegadas com uma resolução de 2400x1080 pixels. As funcionalidades oferecidas pelo Asus Zenfone 8 são muitas e inovadoras. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 128 GB mas sem a possibilidade de expansão.",
+      "price": "3500"
+    },
+    {
+      "id": "18b7bc25-64a2-4f82-b24d-e46cfc7f1b53",
+      "name": "Redmi Note 10",
+      "picture": "https://images.tcdn.com.br/img/img_prod/985522/copia_xiaomi_redmi_note_10_6gb_128gb_branco_437_1_98188daeb96ed38af4b2f66be67c31fb.jpeg",
+      "description": "O Redmi Note 10 é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.43 polegadas com uma resolução de 2400x1080 pixel. Sobre as características deste Redmi Note 10 na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 128 GB com a possibilidade de expansão.",
+      "price": "1500"
+    },
+    {
+      "id": "28bb8b03-26de-4eb0-a97a-0cef150f62a8",
+      "name": "Samsung Galaxy S21",
+      "picture": "https://a-static.mlcdn.com.br/618x463/smartphone-samsung-galaxy-s21-128gb-violeta-5g-8gb-ram-tela-62-cam-tripla-selfie-10mp/magazineluiza/155619100/366e21215eb0bd8d310fdd552e1010b6.jpg",
+      "description": "O Samsung Galaxy S21 é um smartphone Android avançado e abrangente em todos os pontos de vista com algumas características excelentes. Tem uma grande tela de 6.2 polegadas com uma resolução de 2400x1080 pixels. As funcionalidades oferecidas pelo Samsung Galaxy S21 são muitas e inovadoras. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 256 GB mas sem a possibilidade de expansão.",
+      "price": "3800"
+    },
+    {
+      "id": "1b483702-84bc-4170-9936-ecc77d3998e9",
+      "name": "Apple iPhone 12 Pro",
+      "picture": "https://a-static.mlcdn.com.br/618x463/iphone-12-pro-apple-256gb-grafite-61-cam-tripla-12mp-ios/magazineluiza/155599900/29b186cdf036be6438e406d2825245a1.jpg",
+      "description": "O Apple iPhone 12 Pro é um smartphone iOS com características inovadoras que o tornam uma excelente opção para qualquer tipo de utilização. A tela de 6.1 polegadas coloca esse Apple no topo de sua categoria. A resolução também é alta: 2532x1170 pixel. As funcionalidades oferecidas pelo Apple iPhone 12 Pro são muitas e top de linha. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS presente no aparelho. Tem também leitor multimídia, videoconferência, e bluetooth. Enfatizamos a excelente memória interna de 512 GB mas sem a possibilidade de expansão.",
+      "price": "6000"
+    },
+    {
+      "id": "2477877d-7103-43f3-9a80-47e278891a21",
+      "picture": "https://img.ibxk.com.br/2021/05/07/07174347957310.jpg",
+      "name": "Macbook Air 13,3” Apple M1 8GB",
+      "description": "O chip M1 impulsiona o desempenho do notebook mais fino e leve da Apple. Encare qualquer projeto com a CPU de oito núcleos ultrarrápida. Com a GPU de até oito núcleos, suba o nível dos gráficos em games e apps. E acelere as tarefas de aprendizado de maquina com o Neural Engine de 16 núcleos. tudo isso em um design sem ventoinha e com tempo de bateria impressionante: até 18 horas*. MacBook Air. Portátil como sempre, só que muito mais potente.Avisos legais:* A duração da bateria varia de acordo com o uso e a configuração. Consulte apple.com/br/batteries para obter mais informações.",
+      "price": "8000"
+    },
+    {
+      "id": "40c9711f-93dd-4d99-83c4-a5d3ee4f334f",
+      "picture": "https://images-americanas.b2w.io/produtos/01/00/item/133794/1/133794123_1GG.jpg",
+      "name": "Notebook Samsung Dual Core 4GB 500GB",
+      "description": "O notebook Samsung Book possui uma arquitetura de última geração e design elegante para quem busca qualidade, desempenho e proteção do investimento. Conta com portas de acesso à memória e unidade de armazenamento, facilitando o upgrade e proporcionando mais longevidade ao sistema. O Samsung Book traz uma configuração com processador Intel Dual Core, 4GB RAM e 500GB de HD, atendendo aos mais diversos perfis de utilização, seja para estudo, trabalho ou uso geral.",
+      "price": "2300"
+    },
+    {
+      "id": "6d66beaf-4a44-4edb-8748-e3a7dbe6f731",
+      "name": "Notebook Asus Dual Core 4GB 500GB Tela 15.6”",
+      "picture": "https://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1334541181",
+      "description": "O notebook ASUS X543 tem design clássico, com acabamento escovado, super elegante e o melhor de tudo, é fino e leve para levar aonde quiser. Com o ASUS notebook X543, você não será mais um na multidão. Se o seu objetivo é relaxar, aproveite o sistema de som super poderoso do X543. Ele usa cada milímetro do seu chassis para reproduzir graves mais impactante e sem ruídos. Já que você vai gastar horas trabalhando no seu novo notebook, pensamos que não seria confortável se ele esquentasse, passando esse calor para as mãos, ou até mesmo para as pernas, caso esteja com ele no colo. Por isso a ASUS criou a exclusiva tecnologia ASUS IceCool. Ela é resultado de décadas de experiência que a ASUS tem em desenhar e fabricar placas-mãe. A ASUS basicamente redesenhou a placa-mãe dos notebooks para que os componentes que mais geram calor estivessem longe das áreas de contato com o usuário. Dessa forma, você pode digitar por horas de forma confortável, aumentando sua produtividade. O X543MA está disponível com processador Intel Dual Core, HD de 500GB e 4GB de memória RAM.",
+      "price": "2500"
+    },
+    {
+      "id": "51af469f-4b83-4559-bdb9-cbedc2cd7dce",
+      "picture": "https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1382773747",
+      "name": "Notebook Acer Core i5 8GB 512GB Tela 15.6”",
+      "description": "Os notebooks da linha Aspire 5 são convenientemente portáteis e elegantes para acompanhar suas tarefas do dia a dia. Os recursos tecnológicos de sua confiança ao seu lado sempre que precisar. Desempenho suficiente para todas as tarefas com processador Intel® Core™ i5 de 10ª geração.  Com 8 GB de memória, você não perde tempo, nem fluxo ao editar suas fotos, vídeos e projetos pesados. Com toda essa memória, você trabalhará com fluidez e sem interrupções. Viva o significado de agilidade!  Além disso, seu design Premium ultrafino com tampa em metal e uma tela de 15,6” Full HD com resolução (1920x1080) e tecnologia antirreflexo, entrega uma experiência de imagens muito rica, perfeita para assistir seus filmes e editar seus projetos em vídeo.",
+      "price": "3500"
+    }
+  ],
+  "carrinho": []
+}

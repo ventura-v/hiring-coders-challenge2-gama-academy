@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { uuid } from "uuidv4";
 
 import api from "./services/api";
+import prod from './static-server.json'
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -65,6 +66,14 @@ const App = () => {
 
     getCart()
   }, [])
+
+  useEffect(() => {
+    localStorage.setItem('produtos', JSON.stringify(prod.produtos))
+    if(prod.produtos.length !== products.length){
+      setProducts(JSON.parse(localStorage.getItem('produtos')))
+    }
+    console.log(prod.produtos.length)
+  }, [products])
 
   useEffect(() => {
 
