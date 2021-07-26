@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import './detail.scss'
+
 const ProductDetail = (props) => {
     const { picture, name, description, price } = props.location.state.product;
     return (
@@ -12,7 +14,7 @@ const ProductDetail = (props) => {
                 <div className="content">
                     <div className="header">{name}</div>
                     <div className="description">{description}</div>
-                    <div className="price">{price}</div>
+                    <div className="price">R$ {price}</div>
                 </div>
             </div>
             <div className="return">
